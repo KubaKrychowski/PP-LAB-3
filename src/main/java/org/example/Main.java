@@ -10,5 +10,13 @@ public class Main {
         System.out.printf("Point coords: x:%s : y:%s%n",point.getX(), point.getY());
 
         Circle circle = new Circle(point, 10.2);
+        Point circleCenter = circle.getCenter();
+
+        System.out.printf(
+                "Circle center: {X: %s, Y: %s}",
+                circleCenter.getX(),
+                circleCenter.getY()
+        );
+
     }
 }
